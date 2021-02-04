@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Hero
-        href="#last__projects"
+        href="/portafolio"
         title="Manuel Gaitán"
         description="Desarrollador Web"
         button="¡Ver más!"

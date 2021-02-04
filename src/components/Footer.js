@@ -38,6 +38,8 @@ const Footer = () => {
                 <a
                   className="nav-link nav__link--mg py-0"
                   href="https://www.linkedin.com/in/manuelgaitancr/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Linked <span className="icon-linkedin"></span>
                 </a>
@@ -46,6 +48,8 @@ const Footer = () => {
                 <a
                   className="nav-link nav__link--mg py-0"
                   href="https://www.facebook.com/manuelgaitancr"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <span className="facebook">Facebook</span>
                 </a>

@@ -10,22 +10,42 @@ const Contact = () => {
             <h1 className="contact__title text__bright--pink mb-3">Contacto</h1>
             <div className="row">
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
-                <a href="http://" className="contact__link m-3">
+                <a
+                  href="https://api.whatsapp.com/send?phone=50688810274"
+                  className="contact__link m-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="contact__icon icon-whatsapp"></span>
                 </a>
               </div>
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
-                <a href="http://" className="contact__link m-3">
+                <a
+                  href="https://t.me/manuelgaitancr"
+                  className="contact__link m-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="contact__icon icon-telegram"></span>
                 </a>
               </div>
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
-                <a href="http://" className="contact__link m-3">
+                <a
+                  href="https://www.linkedin.com/in/manuelgaitancr/"
+                  className="contact__link m-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="contact__icon icon-linkedin2"></span>
                 </a>
               </div>
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
-                <a href="http://" className="contact__link m-3">
+                <a
+                  href="https://www.facebook.com/manuelgaitancr"
+                  className="contact__link m-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="contact__icon icon-facebook"></span>
                 </a>
               </div>
