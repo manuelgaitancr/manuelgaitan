@@ -1,0 +1,14 @@
+.about__container {
+  background-color: #171c24;
+  border-radius: 10px;
+}
+.about__title {
+  text-shadow: 2px 2px 5px black;
+}
+.about__p {
+  line-height: 34px;
+}
+
+.about__image {
+  border-radius: 10px;
+}

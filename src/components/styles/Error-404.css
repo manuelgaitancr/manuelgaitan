@@ -1,0 +1,12 @@
+.error__container {
+  background-color: #171c24;
+  border-radius: 10px;
+}
+
+.error__container--text {
+  height: 50vh;
+}
+
+.error__title {
+  text-shadow: 2px 2px 5px black;
+}

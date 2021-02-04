@@ -1,0 +1,35 @@
+.contact__container {
+  background-color: #171c24;
+  border-radius: 10px;
+}
+
+.contact__title {
+  text-shadow: 2px 2px 5px black;
+}
+
+.contact__link,
+.contact__icon {
+  text-decoration: none;
+  font-size: 148px;
+  color: rgba(255, 255, 255, 0.55);
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.icon-whatsapp:hover {
+  color: #6dd468;
+}
+
+.icon-telegram:hover {
+  color: #0088cc;
+}
+
+.icon-linkedin2:hover {
+  color: #1166c2;
+}
+
+.icon-facebook:hover {
+  color: #1778f2;
+}
