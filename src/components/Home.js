@@ -22,19 +22,19 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center py-3">
+            <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center my-5">
               <Card
                 src="https://via.placeholder.com/300X200"
                 title="Card title"
               />
             </div>
-            <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center py-3">
+            <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center my-5">
               <Card
                 src="https://via.placeholder.com/300X200"
                 title="Card title"
               />
             </div>
-            <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center py-3">
+            <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center my-5">
               <Card
                 src="https://via.placeholder.com/300X200"
                 title="Card title"
