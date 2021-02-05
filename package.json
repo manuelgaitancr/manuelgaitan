@@ -2,7 +2,7 @@
   "name": "manuelgaitan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manuelgaitancr.github.io/",
+  "homepage": "https://manuelgaitancr.github.io/manuelgaitan",
   "dependencies": {
     "@popperjs/core": "^2.6.0",
     "@testing-library/jest-dom": "^5.11.4",

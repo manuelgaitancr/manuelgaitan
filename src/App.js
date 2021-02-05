@@ -19,7 +19,7 @@ function App() {
               <Route exact path="/acerca-de-mi" component={About} />
               <Route exact path="/portafolio" component={Portfolio} />
               <Route exact path="/contacto" component={Contact} />
-              <Route exact path="*" component={Error404} />
+              {/*<Route exact path="*" component={Error404} />*/}
             </Switch>
           </main>
         </Layout>
