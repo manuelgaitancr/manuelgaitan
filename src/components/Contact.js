@@ -12,6 +12,7 @@ const Contact = () => {
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
                 <a
                   href="https://api.whatsapp.com/send?phone=50688810274"
+                  aria-label="WhatsApp"
                   className="contact__link m-3"
                   target="_blank"
                   rel="noreferrer"
@@ -22,6 +23,7 @@ const Contact = () => {
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
                 <a
                   href="https://t.me/manuelgaitancr"
+                  aria-label="Telegram"
                   className="contact__link m-3"
                   target="_blank"
                   rel="noreferrer"
@@ -32,6 +34,7 @@ const Contact = () => {
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
                 <a
                   href="https://www.linkedin.com/in/manuelgaitancr/"
+                  aria-label="LinkedIn"
                   className="contact__link m-3"
                   target="_blank"
                   rel="noreferrer"
@@ -42,6 +45,7 @@ const Contact = () => {
               <div className="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-3">
                 <a
                   href="https://www.facebook.com/manuelgaitancr"
+                  aria-label="Facebook"
                   className="contact__link m-3"
                   target="_blank"
                   rel="noreferrer"

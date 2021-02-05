@@ -61,6 +61,7 @@ const Header = () => {
                 <a
                   className="nav-link nav__link--linkedin"
                   href="https://www.linkedin.com/in/manuelgaitancr/"
+                  aria-label="LinkedIn"
                   target="_blank"
                   rel="noreferrer"
                 >

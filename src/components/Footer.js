@@ -38,6 +38,7 @@ const Footer = () => {
                 <a
                   className="nav-link nav__link--mg nav__link--linkedin py-0"
                   href="https://www.linkedin.com/in/manuelgaitancr/"
+                  aria-label="LinkedIn"
                   target="_blank"
                   rel="noreferrer"
                 >
