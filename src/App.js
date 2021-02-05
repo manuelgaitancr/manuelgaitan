@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -19,7 +19,7 @@ function App() {
               <Route exact path="/acerca-de-mi" component={About} />
               <Route exact path="/portafolio" component={Portfolio} />
               <Route exact path="/contacto" component={Contact} />
-              {/*<Route exact path="*" component={Error404} />*/}
+              <Route exact path="*" component={Error404} />
             </Switch>
           </main>
         </Layout>
