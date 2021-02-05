@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./styles/Footer.css";
 
 const Footer = () => {
@@ -13,22 +13,25 @@ const Footer = () => {
           <div className="col-12 col-lg-6 d-none d-lg-block">
             <ul className="nav justify-content-center align-items-center">
               <li className="nav-item">
-                <Link
+                <NavLink
                   className="nav-link nav__link--mg py-0"
                   to="/acerca-de-mi"
                 >
                   <span className="icon-user"></span> Acerca de mí
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nav__link--mg py-0" to="/portafolio">
+                <NavLink
+                  className="nav-link nav__link--mg py-0"
+                  to="/portafolio"
+                >
                   <span className="icon-briefcase"></span> Portafolio
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nav__link--mg py-0" to="/contacto">
+                <NavLink className="nav-link nav__link--mg py-0" to="/contacto">
                   <span className="icon-mobile2"></span> Contacto
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

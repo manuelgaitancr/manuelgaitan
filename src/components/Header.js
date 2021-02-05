@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./styles/Header.css";
 import Brand from "../assets/images/mg-brand.png";
 
@@ -8,7 +8,12 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg__mg">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <NavLink
+            className="navbar-brand"
+            activeClassName="active"
+            exact
+            to="/"
+          >
             <img
               src={Brand}
               alt="Logo Manuel Gaitán"
@@ -17,7 +22,7 @@ const Header = () => {
               className="d-inline-block align-top"
             />{" "}
             Manuel Gaitán
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -32,28 +37,45 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
                   aria-current="page"
+                  exact
                   to="/inicio"
                 >
                   <span className="icon-home3"></span> Inicio
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/acerca-de-mi">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
+                  exact
+                  to="/acerca-de-mi"
+                >
                   <span className="icon-user"></span> Acerca de mí
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portafolio">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
+                  exact
+                  to="/portafolio"
+                >
                   <span className="icon-briefcase"></span> Portafolio
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contacto">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
+                  exact
+                  to="/contacto"
+                >
                   <span className="icon-mobile2"></span> Contacto
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
