@@ -13,3 +13,10 @@
 .nav__link--mg:hover {
   color: #ffffff;
 }
+
+.nav .nav-item a.nav__link--linkedin:hover {
+  color: #1166c2;
+}
+.nav .nav-item a.nav__link--facebook:hover {
+  color: #1778f2;
+}

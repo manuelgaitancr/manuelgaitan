@@ -59,7 +59,7 @@ const Header = () => {
             <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
-                  className="nav-link"
+                  className="nav-link nav__link--linkedin"
                   href="https://www.linkedin.com/in/manuelgaitancr/"
                   target="_blank"
                   rel="noreferrer"
@@ -69,7 +69,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
+                  className="nav-link nav__link--facebook"
                   href="https://www.facebook.com/manuelgaitancr"
                   target="_blank"
                   rel="noreferrer"

@@ -1,3 +1,10 @@
 .bg__mg {
   background-color: #171b23;
 }
+.navbar-dark .navbar-nav a.nav__link--linkedin:hover {
+  color: #1166c2;
+}
+
+.navbar-dark .navbar-nav a.nav__link--facebook:hover {
+  color: #1778f2;
+}

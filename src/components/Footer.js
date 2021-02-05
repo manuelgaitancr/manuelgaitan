@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="nav justify-content-end align-items-center">
               <li className="nav-item">
                 <a
-                  className="nav-link nav__link--mg py-0"
+                  className="nav-link nav__link--mg nav__link--linkedin py-0"
                   href="https://www.linkedin.com/in/manuelgaitancr/"
                   target="_blank"
                   rel="noreferrer"
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link nav__link--mg py-0"
+                  className="nav-link nav__link--mg nav__link--facebook py-0"
                   href="https://www.facebook.com/manuelgaitancr"
                   target="_blank"
                   rel="noreferrer"
