@@ -2,10 +2,15 @@ import React from "react";
 import "./styles/Home.css";
 import Hero from "./Hero";
 import Card from "./Card";
+import Head from "./Head";
 
 const Home = () => {
   return (
     <React.Fragment>
+      <Head
+        title="Manuel Gaitán | Desarrollador Web"
+        description="Hola, soy Manuel Gaitán, soy Desarrollador Web. Yo diseño y codifico cosas maravillosamente simples, y me encanta lo que hago."
+      />
       <Hero
         href="/portafolio"
         title="Manuel Gaitán"
