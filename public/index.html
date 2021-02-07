@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" prefix="og: http://ogp.me/ns#">
 
 <head>
   <meta charset="utf-8" />
@@ -23,6 +23,7 @@
   <meta property="og:description"
     content="Hola, soy Manuel Gaitán, soy un Desarrollador Web, diseño y codifico cosas maravillosamente simples, y me encanta lo que hago.">
   <meta property="og:image" content="../src/assets/images/hero-meta.jpg">
+  <meta property="fb:app_id" content="255019122280423" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -31,6 +32,9 @@
   <meta property="twitter:description"
     content="Hola, soy Manuel Gaitán, soy un Desarrollador Web, diseño y codifico cosas maravillosamente simples, y me encanta lo que hago.">
   <meta property="twitter:image" content="../src/assets/images/hero-meta.jpg">
+
+  <!-- Main URL -->
+  <link rel="“canonical”" href="https://manuelgaitan.com/" />
 
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <!--
@@ -47,6 +51,16 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166757926-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-166757926-1');
+  </script>
 
   <!-- Schema.Org -->
   <script type="application/ld+json">
