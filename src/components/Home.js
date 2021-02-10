@@ -10,8 +10,6 @@ const Home = () => {
       <Head
         title="Manuel Gaitán | Desarrollador Web"
         description="Hola, soy Manuel Gaitán, soy Desarrollador Web. Yo diseño y codifico cosas maravillosamente simples, y me encanta lo que hago."
-        ogfImage="../assets/images/hero-meta.jpg"
-        ogtImage="../assets/images/hero-meta.jpg"
       />
       <Hero
         href="/portafolio"
